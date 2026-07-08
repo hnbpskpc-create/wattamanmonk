@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="km">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛕</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ប្រព័ន្ធគ្រប់គ្រងវត្តមានសមាជិកវត្តអារាម - Pagoda Attendance</title>
+    <style>
+      /* Load Khmer beautiful fonts and apply smooth transitions */
+      @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Nokora:wght@100;300;400;700;900&display=swap');
+      
+      body {
+        font-family: 'Kantumruy Pro', 'Nokora', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: #0f172a; /* dark slate bg matching our Android app's aesthetic */
+        color: #f8fafc;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+      }
+
+      /* Native scrollbar styling */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #1e293b;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #475569;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #ea580c;
+      }
+    </style>
+  </head>
+  <body class="bg-slate-900 text-slate-100 min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
